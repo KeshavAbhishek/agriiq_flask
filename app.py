@@ -10,7 +10,7 @@ from datetime import datetime
 
 # Initialize Flask app
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": "http://localhost:5173"}})
+CORS(app, resources={r"/*": {"origins": "http://localhost:5173"}}) #Edit this http://localhost:5173 to the site on which your project is hosted
 
 # Constants
 IMG_SIZE = (224, 224)
